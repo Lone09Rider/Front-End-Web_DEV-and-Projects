@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    overflow: hidden;
+}
+
+.logo{
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.navbar{
+    background-color: black;
+    color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem;
+}
+
+.color-text{
+    color: white;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    padding: 1rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: orange;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.arrange{
+    color: white;
+    align-items: center;
+    margin: 400px;
+}
+
+
+.divi{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.text{
+    z-index: 1;
+    color: white;
+    background-color: orange;
+    border-bottom: 9px solid green;
+    border-left: 9px solid green;
+    border-right: 9px solid green;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 50px;
+    border-radius: 15px;
+    align-content: center;
+
+}
+
+.arrange{
+    border: 2px solid white;
+    display: inline;
+    border-inline-width: 400px;
+}
+
